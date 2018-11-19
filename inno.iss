@@ -4,12 +4,12 @@ AppVersion=3.0.21
 AppCopyright=Copyright © 2014 Алексей Коноплев aka KLesha28
 PrivilegesRequired=admin
 DefaultDirName={pf}\FontMassive
-DefaultGroupName=FontMassive
+DefaultGroupName=FontMassive Pack
 UninstallDisplayIcon={uninstallexe}
 Compression=lzma2
 SolidCompression=yes
 OutputDir=installer
-OutputBaseFilename= FontMassive_3.0.21
+OutputBaseFilename= FontMassivePack
 ; "ArchitecturesInstallIn64BitMode=x64" requests that the install be
 ; done in "64-bit mode" on x64, meaning it should use the native
 ; 64-bit Program Files directory and the 64-bit view of the registry.
@@ -18,21 +18,21 @@ ArchitecturesInstallIn64BitMode=x64
 ; Note: We don't set ProcessorsAllowed because we want this
 ; installation to run on all architectures (including Itanium,
 ; since it's capable of running 32-bit code too).
-WizardImageFile=embed/image.bmp 
+WizardImageFile=embed/wizard.bmp 
 WizardImageStretch=no 
 WizardSmallImageFile=embed/logo.bmp
-SetupIconFile=embed/logo.ico
+SetupIconFile=embed/icon.ico
 ShowLanguageDialog=no
-UninstallDisplayName=Удалить FontMassive
+UninstallDisplayName=Удалить FontMassive Pack
 VersionInfoVersion=3.0.21
-VersionInfoCompany=FontMassive
-VersionInfoDescription=Сборка инсталяции для программы FontMassive
+VersionInfoCompany=FontMassive Pack
+VersionInfoDescription=Сборка инсталяции для программы FontMassive Pack
 VersionInfoTextVersion=3.0.21
 VersionInfoCopyright=Copyright © 2014 Алексей Коноплев aka KLesha28
-VersionInfoProductName=FontMassive
+VersionInfoProductName=FontMassive Pack
 VersionInfoProductVersion=3.0.21
 VersionInfoProductTextVersion=3.0.21
-AppMutex=FontMassive
+AppMutex=FontMassive Pack
 AppId={{39CA51DC-A5E5-4BAC-8339-9C6E378394E5}
 AppPublisher=Алексей Коноплев (KLesha28)
 AppPublisherURL=https://fontmassive.com/
@@ -42,7 +42,7 @@ AppReadmeFile={app}\FM3_Data\Readme_ru.txt
 InfoAfterFile=app.rtf
 
 [Languages]
-Name: "rus"; MessagesFile: "C:\Program Files (x86)\Inno Setup 5\Languages\Russian.isl"
+Name: "rus"; MessagesFile: "lang\Russian.isl"
 
 [Dirs]
 Name: "{app}\FM3_Data"     
@@ -75,11 +75,11 @@ Source: "source\FT_Data\License_ru.txt"; DestDir: "{app}\FT_Data"
 Source: "source\FT_Data\Readme_ru.txt"; DestDir: "{app}\FT_Data"
 
 [Icons]
-Name: "{group}\FontMassive Pack\Менеджер шрифтов"; Filename: "{app}\FontMassive.exe"; Tasks: startmenu
-Name: "{group}\FontMassive Pack\Временная установка шрифтов"; Filename: "{app}\FonTemp.exe"; Tasks: startmenu  
-Name: "{group}\FontMassive Pack\Распознавание шрифтов на изображении"; Filename: "{app}\FontDetect.exe"; Tasks: startmenu  
-Name: "{group}\FontMassive Pack\Выпрямление текста по окружности"; Filename: "{app}\Circular.exe"; Tasks: startmenu 
-Name: "{group}\FontMassive Pack\Выпрямление текста по кривой"; Filename: "{app}\LinearText.exe"; Tasks: startmenu 
+; Name: "{group}\FontMassive Pack\Менеджер шрифтов"; Filename: "{app}\FontMassive.exe"; Tasks: startmenu
+; Name: "{group}\FontMassive Pack\Временная установка шрифтов"; Filename: "{app}\FonTemp.exe"; Tasks: startmenu  
+; Name: "{group}\FontMassive Pack\Распознавание шрифтов на изображении"; Filename: "{app}\FontDetect.exe"; Tasks: startmenu  
+; Name: "{group}\FontMassive Pack\Выпрямление текста по окружности"; Filename: "{app}\Circular.exe"; Tasks: startmenu 
+; Name: "{group}\FontMassive Pack\Выпрямление текста по кривой"; Filename: "{app}\LinearText.exe"; Tasks: startmenu 
 
 Name: "{userprograms}\FontMassive Pack\Менеджер шрифтов"; Filename: "{app}\FontMassive.exe"; Tasks: startmenu
 Name: "{userprograms}\FontMassive Pack\Временная установка шрифтов"; Filename: "{app}\FonTemp.exe"; Tasks: startmenu  
