@@ -65,6 +65,7 @@ AppUpdatesURL={#GitReleace}
 DisableDirPage=yes
 ShowLanguageDialog=no
 
+ArchitecturesInstallIn64BitMode=x64
 
 [Languages]
 Name: rus; MessagesFile: lang\Russian.isl
@@ -127,8 +128,8 @@ Name: {userprograms}\FontMassive Pack\Выпрямление текста по кривой; Filename: {a
 ; Name: "{commondesktop}\Выпрямление текста по окружности"; Filename: "{app}\Circular.exe"; Tasks: desktopicon
 ; Name: "{commondesktop}\Выпрямление текста по кривой"; Filename: "{app}\LinearText.exe"; Tasks: desktopicon
 
-Name: {group}\Удалить FontMassive Pack; Filename: {uninstallexe}; Tasks: startmenu
-Name: "{group}\{cm:UninstallProgram, FontMassive Pack}"; Filename: "{uninstallexe}"
+; Name: {group}\Удалить FontMassive Pack; Filename: {uninstallexe}; Tasks: startmenu
+Name: "{group}\{cm:UninstallProgram, FontMassive Pack}"; Filename: "{uninstallexe}"; Tasks: startmenu
 
 [Tasks]
 ; Name: desktopicon; Description: "Создать ярлыки на рабочем столе"; GroupDescription: "Создать ярлыки:";
