@@ -17,8 +17,7 @@ AppPublisherURL={#AppUrl}
 AppSupportURL={#AppUrl}
 AppContact={#AppEmail}
 AppReadmeFile={app}\FM3_Data\Readme_ru.txt
-
-
+InfoBeforeFile=app.rtf
 
 VersionInfoVersion={#AppVersion}
 VersionInfoCompany={#AppName}
@@ -29,7 +28,10 @@ VersionInfoCopyright={#AppCopyright}
 PrivilegesRequired=admin
 DefaultDirName={pf}\FontMassive
 UninstallDisplayIcon={app}\icon.ico
-
+DefaultGroupName={#AppName}
+Compression=lzma2
+SolidCompression=yes
+ 
 OutputDir=installer
 OutputBaseFilename=FontMassivePack
 
@@ -38,6 +40,7 @@ WizardSmallImageFile=embed/logo.bmp
 
 SetupIconFile=embed/icon.ico
 UninstallDisplayName=Удалить {#AppName}
+
 WindowVisible=True
 BackColor=clBlack
 DisableWelcomePage=False
@@ -61,7 +64,7 @@ DisableProgramGroupPage=yes
 AppUpdatesURL={#GitReleace}
 DisableDirPage=yes
 ShowLanguageDialog=no
-InfoBeforeFile=app.rtf
+
 
 [Languages]
 Name: rus; MessagesFile: lang\Russian.isl
