@@ -15,10 +15,10 @@ LanguageCodePage=1251
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=”становка
-SetupWindowTitle=”становка Ч %1
-UninstallAppTitle=ƒеинсталл€ци€
-UninstallAppFullTitle=ƒеинсталл€ци€ Ч %1
+SetupAppTitle=”становка Ч FontMassive Pack
+SetupWindowTitle=”становка Ч FontMassive Pack
+UninstallAppTitle=ƒеинсталл€ци€ Ч FontMassive Pack
+UninstallAppFullTitle=ƒеинсталл€ци€ Ч FontMassive Pack
 
 ; *** Misc. common
 InformationTitle=»нформаци€
@@ -61,7 +61,7 @@ AboutSetupMenuItem=&ќ программе...
 AboutSetupTitle=ќ программе
 AboutSetupMessage=%1, верси€ %2%n%3%n%n—айт %1:%n%4
 AboutSetupNote=
-TranslatorNote=Russian translation by Dmitry Kann, http://www.dk-soft.org/
+; *** TranslatorNote=Russian translation by Dmitry Kann, http://www.dk-soft.org/
 
 ; *** Buttons
 ButtonBack=< &Ќазад
@@ -302,8 +302,8 @@ StatusUninstalling=ƒеинсталл€ци€ %1...
 
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=”становка %1.
-ShutdownBlockReasonUninstallingApp=ƒеинсталл€ци€ %1.
+ShutdownBlockReasonInstallingApp=”становка FontMassive Pack.
+ShutdownBlockReasonUninstallingApp=ƒеинсталл€ци€ FontMassive Pack.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
@@ -322,3 +322,10 @@ AssocingFileExtension=—в€зывание %1 с файлами %2...
 AutoStartProgramGroupDescription=јвтозапуск:
 AutoStartProgram=јвтоматически запускать %1
 AddonHostProgramNotFound=%1 не найден в указанной вами папке.%n%n¬ы всЄ равно хотите продолжить?
+
+HintLabel1_0=ѕерейти в репозиторий сборки
+HintLabel1_1=инсталл€ционного пакета на GitHub
+HintLabel2_0=ѕерейти к записи на Demiart Forum
+HintLabel3_0=ѕосетить сайт разработчика
+CaptionLabel1=—борка пакета
+
