@@ -1,6 +1,6 @@
 # FontMassivePackInstaller
 
-![](https://img.shields.io/github/release/nice-studio/FontMassivePackInstaller.svg?style=for-the-badge) ![](https://img.shields.io/github/license/nice-studio/FontMassivePackInstaller.svg?style=for-the-badge) ![](https://img.shields.io/github/downloads/nice-studio/FontMassivePackInstaller/total.svg?label=%D0%A1%D0%9A%D0%90%D0%A7%D0%95%D0%9D%D0%9E&style=for-the-badge)
+![](https://img.shields.io/github/release/nice-studio/FontMassivePackInstaller.svg?style=for-the-badge) ![](https://img.shields.io/github/license/nice-studio/FontMassivePackInstaller.svg?style=for-the-badge) ![](https://img.shields.io/github/downloads/nice-studio/FontMassivePackInstaller/total.svg?label=%D0%A1%D0%9A%D0%90%D0%A7%D0%95%D0%9D%D0%9E&style=for-the-badge) ![](https://img.shields.io/github/repo-size/nice-studio/FontMassivePackInstaller.svg?style=for-the-badge)
 
 ![](https://monosnap.com/image/c0bQCSFoh5TTQOhZ8JpaGP1AO0bnjp.png)
 
