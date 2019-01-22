@@ -1,5 +1,7 @@
 # FontMassivePackInstaller
 
+![](https://img.shields.io/github/downloads/nice-studio/FontMassivePackInstaller/total.svg?style=for-the-badge)
+
 ![](https://monosnap.com/image/c0bQCSFoh5TTQOhZ8JpaGP1AO0bnjp.png)
 
 **FontMassive Pack** - Набор программ для работы со шрифтами.   
